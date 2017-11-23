@@ -35,6 +35,10 @@ export class Funcionalidad {
         this.funcionalidad = [miEvento,misAcciones];
     }
 
+    public getNombreEvento() {
+        return this.funcionalidad[0].getNombre();
+    }
+    
     public addFuncionalidad(accion: Accion) {        
         this.funcionalidad[1].push(accion);
     }

@@ -25,6 +25,9 @@ var Funcionalidad = /** @class */ (function () {
         var misAcciones = Array();
         this.funcionalidad = [miEvento, misAcciones];
     }
+    Funcionalidad.prototype.getNombreEvento = function () {
+        return this.funcionalidad[0].getNombre();
+    };
     Funcionalidad.prototype.addFuncionalidad = function (accion) {
         this.funcionalidad[1].push(accion);
     };
