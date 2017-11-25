@@ -1,3 +1,4 @@
+/* node bot.js */
 import { Funcionalidad, Accion } from  './clsFuncionalidad';
 
 class Bot {
